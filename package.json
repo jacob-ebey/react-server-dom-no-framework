@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "build": "vite build --app",
+    "dev": "vite dev",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@jacob-ebey/react-server-dom-vite": "19.0.0-experimental.13",
+    "@jacob-ebey/vite-react-server-dom": "0.0.6",
+    "@mjackson/node-fetch-server": "0.5.0",
+    "compression": "^1.7.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rsc-html-stream": "0.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "vite": "^6.0.3"
+  }
+}
